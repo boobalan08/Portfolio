@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boobalan</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap file link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+<!-- animate link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("aFzM1WA1rHgXdK-l7");
+   })();
+</script>
+
+  </head>
+  <body>
+    <!-- NavBar Section-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-code"></i> Develop<span>er</span></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon mb-4"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active mx-3" aria-current="page" href="#"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-3" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-3" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me section -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="pic animate__bounceInLeft">
+              <img src="./img/my_img.jpg" />
+            </div>
+            <div class="content text-center animate__bounceInLeft">
+              <h4>Hello, my name is</h4>
+              <h1><span >Boobalan</span></h1>
+              <h3>I'am a Web Developer.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills">
+      <div class="skills_section">
+        <div class="container" id="container-2">
+          <div class="row">
+            <div class="skills_head">
+              <h1>My <span>Skills</span></h1>
+
+              <p>Here is my skills to represent my Expertise</p>
+            </div>
+
+            <div class="skills_main">
+              <div class="skill_bar">
+                <div class="info">
+                  <p>Html</p>
+
+                  <p>90%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="html"></span>
+                </div>
+              </div>
+
+              <div class="skill_bar">
+                <div class="info">
+                  <p>Css</p>
+
+                  <p>85%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="css"></span>
+                </div>
+              </div>
+
+              <div class="skill_bar">
+                <div class="info">
+                  <p>Bootstrap</p>
+
+                  <p>80%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="bootstrap"></span>
+                </div>
+              </div>
+
+              <div class="skill_bar">
+                <div class="info">
+                  <p>Java Script</p>
+
+                  <p>90%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="js"></span>
+                </div>
+              </div>
+
+              <div class="skill_bar">
+                <div class="info">
+                  <p>React Js</p>
+
+                  <p>75%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="react"></span>
+                </div>
+              </div>
+
+              <div class="skill_bar">
+                <div class="info">
+                  <p>Node Js</p>
+
+                  <p>70%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="node"></span>
+                </div>
+              </div>
+
+              <div class="skill_bar">
+                <div class="info">
+                  <p>Express Js</p>
+
+                  <p>66%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="express"></span>
+                </div>
+              </div>
+
+              <div class="skill_bar">
+                <div class="info">
+                  <p>Mongo DB</p>
+
+                  <p>60%</p>
+                </div>
+
+                <div class="bar">
+                  <span class="mongo"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project">
+      <div class="project_section">
+        <div class="container">
+          <div class="row">
+            <div class="project_head">
+              <h1>My <span>Project</span></h1>
+
+              <p>Here is my projects using Html,Css,Js,React</p>
+            </div>
+            <div class="col col-md-4">
+              <div class="card" style="width: 18rem;">
+          <img src="./img/tribute-page.jpg" class="card-img-top img-thumbnail" alt="tributePage">
+          <div class="card-body">
+            <h5 class="card-title text-center">Tribute Page</h5>
+            <p class="card-text text-center">A.r.rahman Tribute page using Html,css</p>
+            <div class="d-flex justify-content-between">
+            <button class="btn"> <a href="https://arrahman-tribute-page.netlify.app/" target="_blank"><i class="fas fa-link"></i> Visit Site</a></button>
+              <button class="btn"><a href="https://github.com/boobalan08/Tribute-Page" target="_blank"><i class="fab fa-github"></i> Github</a></button>
+            </div>
+          </div>
+          </div>
+            </div>
+            <div class="col col-md-4">
+              <div class="card" style="width: 18rem;">
+          <img src="./img/nationalize-api.jpg" class="card-img-top img-thumbnail" alt="tributePage">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nationalize-Api</h5>
+            <p class="card-text text-center">Searching a name to get which country have your name</p>
+            <div class="d-flex justify-content-between">
+            <button class="btn"> <a href="https://nationality-dom-api.netlify.app/" target="_blank"><i class="fas fa-link"></i> Visit Site</a></button>
+              <button class="btn"><a href="https://github.com/boobalan08/nationality-api-dom" target="_blank"><i class="fab fa-github"></i> Github</a></button>
+            </div>
+          </div>
+          </div>
+            </div>
+            <div class="col col-md-4">
+              <div class="card" style="width: 18rem;">
+          <img src="./img/img-1.jpg" class="card-img-top img-thumbnail" alt="tributePage">
+          <div class="card-body">
+            <h5 class="card-title text-center">Add-to-Cart</h5>
+            <p class="card-text text-center">Shopify add and remove from cart using React</p>
+            <div class="d-flex justify-content-between">
+            <button class="btn"> <a href="https://neon-toffee-7bdc34.netlify.app/" target="_blank"><i class="fas fa-link"></i> Visit Site</a></button>
+              <button class="btn"><a href="https://github.com/boobalan08/add-to-cart" target="_blank"><i class="fab fa-github"></i> Github</a></button>
+            </div>
+          </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!-- contact section -->
+
+<section id="contact">
+  
+<div class="container p-4">
+  <div class="row rounded mt-5">
+    <h1 class="text-center m-4">Contact Me</h1>
+      <div class="col col-md-4 form-left-side p-5 ">
+    <h2 class="m-4 get">Get in touch</h2>
+    <div class="contact-me ">
+      <div class="phone d-flex align-items-center">
+        <i class="fa-solid fa-phone icon mb-4"></i>
+        <p><b>Phone:</b> 7373908825</p>
+      </div>
+      <div class="email d-flex align-items-center">
+        <i class="fa-solid fa-envelope icon mb-4"></i>
+        <p><b>Email:</b> boobalans42@gmail.com</p>
+      </div>
+      <div class="location d-flex align-items-center">
+        <i class="fa-solid fa-location-dot icon mb-4"></i>
+        <p><b>Location:</b>Attur,Salem</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-8 form-right-side">
+     <form action="mailto:boobalans42@gmail.com" class="row g-3 mt-3" method="post">
+      <div class="col-md-6">
+        <label for="fname" class="form-label">Full Name</label>
+        <input type="text" class="form-control" placeholder="Name" id="name" required>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Email" id="email" required>
+      </div>
+      <div class="col-md-6">
+        <label for="phone-number" class="form-label">Phone Number</label>
+        <input type="number" class="form-control" placeholder="Number" id="number" required>
+      </div>
+      <div class="col-md-6">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+      </div>
+      <div class="col-12">
+        <label for="input-message" class="form-label">Message</label>
+        <textarea id="message" rows="6" class="form-control" placeholder="Your Message"></textarea>
+      </div>
+      <div class="col-12 send">
+        <button type="submit" value="send" class="btn button p-2" onclick="sendMail()">Send</button>
+      </div>
+     </form>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- footer-section -->
+<section id="footer">
+<footer>
+  <p class="text-center ptag">Follow Me</p>
+  <div class="social">
+    <a href="https://www.linkedin.com/in/boobalan-senthilkumar-89b81a169/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/boobalan08"><i class="fab fa-github"></i></a>
+    <a href="https://www.boobalans42@gmail.com"><i class="fab fa-google-plus-g"></i></a>
+    <a href="https://www.instagram.com/boo_offl?r=nametag" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+          <!-- disclaimer -->
+          <div class="row mt-3">
+            <div class="col-md-12 text-center">
+              <p class="copyright">
+                Copyright © 2022 All rights reserved | This template is made by <a href="https://github.com/boobalan08" target="_blank"><span>Boobalan</span></a>
+              </p>
+            </div>
+          </div>
+  </div>
+</footer>
+</section>
+
+
+    <!-- JS file link -->
+    <script src="./script.js"></script>
+    <!-- Bootstrap Js file link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+  
+  </body>
+</html>
